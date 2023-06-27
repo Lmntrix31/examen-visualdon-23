@@ -38,16 +38,23 @@ Apportez les manipulations suivantes et imprimez les résultats dans la console 
 Avec les donnés de l'exercice précédent, produisez les visualisations suivantes :
 
 ### 3.1 Carte
+
+> :exclamation: Veuillez utiliser la _projection_ et le _path_ déjà en place dans le code si vous utilisez *d3*. Autrement, vous êtes libres d'utiliser n'importe quelle librairie de cartographie web !
+
+
 * Visualisez une carte choroplète des communes selon le **pourcentage oui** :dart: **10 points** :dart:
-* Rajoutez une info-bulle avec quand survolez sur les communes avec les informations suivantes : **nom de la commune** et **pourcentage de oui** :dart: **10 points** :dart:
+* Rajoutez une info-bulle quand vous survolez sur les communes avec les informations suivante : **nom de la commune** et **pourcentage de oui** :dart: **10 points** :dart:
 * Quel est votre avis par rapport à ce genre de visualisation ? Il y a t'il des biais ? Quel type de réprésentation serait la plus adaptée ? Imprimez la réponse dans la console. :dart: **5 points** :dart:
+
+> :bulb: La fonction `rewind` est nécessaire pour dessiner les éléments _path_ dans le bon ordre comme dans l'exemple https://codepen.io/romanoe/pen/mdGZgBx
+
 
 ### 3.2 Barchart
 
 * Créez un diagramme en bâton (barchart) en ayant en axe X les _noms des communes_ et en axe Y le _pourcentage de oui_ :dart: **10 points** :dart:
-> Exemple: https://codepen.io/romanoe/pen/oNPGzyY 
+> :bulb: Exemple: https://codepen.io/romanoe/pen/oNPGzyY 
 * Ordonnez les bâtons dans l'ordre croissant :dart: **5 points** :dart:
-* Créez une animation d'entrée pour les bâtons (height=0 à height=`pourcentage de oui`)  :dart: **5 points** :dart:
+* Créez une animation d'entrée pour les bâtons (height=0 à height=**pourcentage de oui**`)  :dart: **5 points** :dart:
 
 ## Exercice 4 - Web scraping (20 points)
 * Rentrez dans le dossier web-scraping `cd webscraping`
