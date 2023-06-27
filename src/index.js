@@ -15,7 +15,6 @@ d3.json('../data/votations_vd.geojson')
     .then(data => {
 
         // Données
-        console.log(data)
 
 
         /*
@@ -69,7 +68,7 @@ d3.json('../data/votations_vd.geojson')
 
         // ---------------------------- Continuez ci-dessous -----------------------------------
 
-
+        console.log(reversed_data)
 
 
 

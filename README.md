@@ -64,8 +64,8 @@ Avec les donnés de l'exercice précédent, produisez les visualisations suivant
 
 À l’aide des outils de web-scraping que vous avez appris en cours, allez à la page Wikipedia listant les cours d'eau en Suisse (https://fr.wikipedia.org/wiki/Liste_des_cours_d%27eau_de_la_Suisse) et :
 
-* Prenez une capture d’écran de la page :dart: **5 points** :dart:
-* Imprimez dans la console tous les noms des cours d'eau de plus de 30 km :dart: **5 points** :dart:
-* Imprimez dans la console le cours d'eau le plus long :dart: **5 points** :dart:
-* Imprimez dans la console le cours d'eau avec le débit le plus élevé :dart: **5 points** :dart:
+1. Prenez une capture d’écran de la page :dart: **5 points** :dart:
+2. Imprimez dans la console tous les noms des cours d'eau de plus de 30 km :dart: **5 points** :dart:
+3. Imprimez dans la console le cours d'eau le plus long :dart: **5 points** :dart:
+4. Imprimez dans la console le cours d'eau avec le débit le plus élevé :dart: **5 points** :dart:
 
