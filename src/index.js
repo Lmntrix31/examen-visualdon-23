@@ -15,7 +15,7 @@ d3.json('../data/votations_vd.geojson')
     .then(data => {
 
         // Données
-
+        console.log('Données brutes', data)
 
         /*
 ========================================================================================================================
@@ -42,7 +42,7 @@ d3.json('../data/votations_vd.geojson')
         // Constantes
         const margin = {top: 10, right: 40, bottom: 20, left: 40},
             width = 0.8 * window.innerWidth - margin.left - margin.right,
-            height = 0.5 * window.innerHeight + margin.top + margin.bottom;
+            height = 0.7 * window.innerHeight + margin.top + margin.bottom;
 
 
         // --- 3.1 Carte choroplète ---
@@ -58,6 +58,9 @@ d3.json('../data/votations_vd.geojson')
             return rewind(feature, {reverse: true});
         })
 
+        // Données à utiliser pour la carte
+        console.log('Données (features) à utiliser pour la carte', reversed_data)
+
         const projection = d3.geoMercator()
             .fitSize([width, height], {"type": "FeatureCollection", "features": reversed_data})
 
@@ -68,7 +71,6 @@ d3.json('../data/votations_vd.geojson')
 
         // ---------------------------- Continuez ci-dessous -----------------------------------
 
-        console.log(reversed_data)
 
 
 
