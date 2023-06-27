@@ -66,8 +66,6 @@ d3.json('../data/votations_vd.geojson')
             .projection(projection)
 
 
-        console.log(reversed_data)
-
 
         // ---------------------------- Continuez ci-dessous -----------------------------------
 

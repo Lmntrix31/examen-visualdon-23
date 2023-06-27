@@ -32,7 +32,7 @@ Apportez les manipulations suivantes et imprimez les résultats dans la console 
 
 1. Le **pourcentage de oui** pour chacune des communes :dart: **5 points** :dart:
 2. La **commune** avec le **pourcentage de non** le plus elevé :dart: **5 points** :dart:
-3. Le résultat de la votation sur l'ensemble du canton (moyenne **pourcentage de oui**, moyenne **pourcentage de non**) **10 points** :dart:
+3. Le résultat de la votation sur l'ensemble du canton (moyenne **pourcentage de oui**, moyenne **pourcentage de non**) :dart: **10 points** :dart:
 
 ## Exercice 3 - Visualisations (45 points)
 Avec les donnés de l'exercice précédent, produisez les visualisations suivantes :
@@ -41,12 +41,13 @@ Avec les donnés de l'exercice précédent, produisez les visualisations suivant
 
 > :exclamation: Veuillez utiliser la _projection_ et le _path_ déjà en place dans le code si vous utilisez *d3*. Autrement, vous êtes libres d'utiliser n'importe quelle librairie de cartographie web !
 
+> :bulb: La fonction `rewind` est nécessaire pour dessiner les éléments _path_ dans le bon ordre comme dans l'exemple https://codepen.io/romanoe/pen/mdGZgBx. Veuillez utiliser `reversed_data` pour la création de la carte
+
 
 * Visualisez une carte choroplète des communes selon le **pourcentage oui** :dart: **10 points** :dart:
 * Rajoutez une info-bulle quand vous survolez sur les communes avec les informations suivante : **nom de la commune** et **pourcentage de oui** :dart: **10 points** :dart:
 * Quel est votre avis par rapport à ce genre de visualisation ? Il y a t'il des biais ? Quel type de réprésentation serait la plus adaptée ? Imprimez la réponse dans la console. :dart: **5 points** :dart:
 
-> :bulb: La fonction `rewind` est nécessaire pour dessiner les éléments _path_ dans le bon ordre comme dans l'exemple https://codepen.io/romanoe/pen/mdGZgBx
 
 
 ### 3.2 Barchart
