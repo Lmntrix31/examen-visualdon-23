@@ -1,4 +1,4 @@
-import * as d3 from 'd3'
+import * as d3 from "d3";
 import rewind from "@turf/rewind";
 
 
@@ -24,28 +24,29 @@ d3.json('../data/votations_vd.geojson')
 ========================================================================================================================
         */
 
-        // 2.1 Le pourcentage de oui pour chacune des communes
+        // --- 2.1 Le pourcentage de oui pour chacune des communes ---
 
 
-        // 2.2 La commune avec le pourcentage de non le plus elevé
+        // --- 2.2 La commune avec le pourcentage de non le plus elevé ---
 
 
-        // 2.3 Le résultat de la votation sur l'ensemble du canton (pourcentage oui, pourcentage non dans tout le canton)
+        // --- 2.3 Le résultat de la votation sur l'ensemble du canton (moyenne pourcentage oui, moyenne pourcentage non dans tout le canton) ---
+
 
 
         /*
-        ========================================================================================================================
-        3. Visualisations (45 points)
-        ========================================================================================================================
+========================================================================================================================
+3. Visualisations (45 points)
+========================================================================================================================
         */
-        // 3.1 Carte choroplète
+
         // Constantes
         const margin = {top: 10, right: 40, bottom: 20, left: 40},
             width = 0.8 * window.innerWidth - margin.left - margin.right,
             height = 0.5 * window.innerHeight + margin.top + margin.bottom;
 
 
-        // --- 3.1 Carte ---
+        // --- 3.1 Carte choroplète ---
         const mapSvg = d3.select('#map')
             .append('svg')
             .attr("width", width + margin.left + margin.right)
@@ -65,7 +66,33 @@ d3.json('../data/votations_vd.geojson')
             .projection(projection)
 
 
-    // Continuez ci-dessous-----------------------------------
+        // ---------------------------- Continuez ci-dessous -----------------------------------
+
+
+
+
+
+
+
+
+
+
+        // --- 3.2 Barchart ---
+        const barchartSvg = d3.select('#barchart')
+            .append('svg')
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+        // ---------------------------- Continuez ci-dessous -----------------------------------
+
+
+
+
+
+
 
 
 

@@ -16,7 +16,7 @@ Reproduire le dessin suivant dans le navigateur à l’aide des outils que vous 
 
 > :exclamation: La grille est à titre indicatif et elle ne doit pas être dessinée.
 
-![dessin](dessin_svg.png)
+![dessin](dessin.png)
 
 ## Exercice 2 - Votations cantonales 18 juin 2023 (20 points)
 Vous avez à disposition les données des résultats de votations sur la loi du Protection du climat du 18 juin 2023 (data/votations_vd.geojson).
@@ -25,8 +25,6 @@ S'agissant d'un fichier `geojson`, la composante géographique est directement d
 
 * `id` : identifiant canton
 * `name`: nom du canton (p. ex. _Vaud_)
-* `electeurs_inscrits`: nombre d'élécteurs inscrits
-* `bulletins_rentres` : nombre de bulletins rentrés
 * `oui` : nombre de oui
 * `non`: nombre de non
 
@@ -34,7 +32,7 @@ Apportez les manipulations suivantes et imprimez les résultats dans la console 
 
 1. Le **pourcentage de oui** pour chacune des communes :dart: **5 points** :dart:
 2. La **commune** avec le **pourcentage de non** le plus elevé :dart: **5 points** :dart:
-3. Le résultat de la votation sur l'ensemble du canton (**pourcentage de oui**, **pourcentage de non** dans tout le canton) **10 points** :dart:
+3. Le résultat de la votation sur l'ensemble du canton (moyenne **pourcentage de oui**, moyenne **pourcentage de non**) **10 points** :dart:
 
 ## Exercice 3 - Visualisations (45 points)
 Avec les donnés de l'exercice précédent, produisez les visualisations suivantes :
