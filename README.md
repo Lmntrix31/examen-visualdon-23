@@ -3,6 +3,7 @@
 Le travail sera rendu au plus tard à 16h15, par e-mail (noemi.romano@heig-vd.ch).
 
 Vous rendrez un fichier ZIP de tout votre projet excepté le dossier "node_modules" et vous donnerez votre nom de famille, prénom et classe à ce dossier. Vous êtes responsable de son contenu et devez vous assurer de la bonne réception du dossier avant de quitter la salle.
+
 ## Installation
 * Clonez la [repository](https://github.com/romanoe/examen-visualdon-23/) `git clone https://github.com/romanoe/examen-visualdon-23.git`
 * Rentrez dans le dossier *examen-visualdon-23* :  ``cd examen-visualdon-23``
@@ -23,8 +24,8 @@ Vous avez à disposition les données des résultats de votations sur la loi du 
 
 S'agissant d'un fichier `geojson`, la composante géographique est directement dans les données. Les données sont structurées de la manière suivante :
 
-* `id` : identifiant canton
-* `name`: nom du canton (p. ex. _Vaud_)
+* `id` : identifiant commune
+* `name`: nom de la commune (p. ex. _Lausanne_)
 * `oui` : nombre de oui
 * `non`: nombre de non
 
